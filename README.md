@@ -40,8 +40,6 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/GarvitaSapra/GarvitaSapra/output/snake.svg" alt="Snake animation" />
-
 ###
 
 <h2 align="left">My social handles 👾</h2>
