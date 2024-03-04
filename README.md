@@ -5,7 +5,7 @@
 <h2 align="left">About me</h2>
 
 <p align="left">✨ Creating bugs since 2019<br>📚 I'm currently learning Cyber Security and Data science<br>
-  😶‍🌫️ How to reach out to me ?? <a  href="mailto:garvitasapra99@gmail.com" >  garvitasapra99@gmail.com</a>
+  🙋‍♀️ Reach out anytime <a  href="mailto:garvitasapra99@gmail.com" >  garvitasapra99@gmail.com</a>
   <br><!---🎲 Fun fact: M gonna start a challenge called 30 days of mini projects soon</p>-->
 
 <h2 align="left">I code with</h2>
