@@ -10,7 +10,8 @@
 
 ###
 
-<p align="left">✨ Creating bugs since 2019<br>📚 I'm currently learning Cyber Security<br><br>🎲 Fun fact: M gonna start a challenge called 30 days of mini projects soon</p>
+<p align="left">✨ Creating bugs since 2019<br>📚 I'm currently learning Cyber Security and Data science<br>😶‍🌫️ How to reach out to me ?? <center><a href="mailto:garvitasapra99@gmail.com">TAP HERE</a></center>
+  <br>🎲 Fun fact: M gonna start a challenge called 30 days of mini projects soon</p>
 
 ###
 
