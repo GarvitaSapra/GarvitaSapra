@@ -1,13 +1,16 @@
- <h1 align="left">Hey 👋 What's up?</h1>
+ <h1 align="center">Hey 👋</h1>
 
-<p align="left"> My name is Garvita Sapra and I'm a Developer / Designer .</p>
-
+ <p align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=900&pause=900&size=40&color=042D5E&width=500&height=60&lines=++My+name+is+Garvita+Sapra" alt="Typing SVG" />
+<h2 align="center"> and I'm a Developer / Designer .</h2></a></p>
 <h2 align="left">About me</h2>
-
-<p align="left">✨ Creating bugs since 2019<br>📚 I'm currently learning Cyber Security and Data science<br>
-  🙋‍♀️ Reach out anytime <a  href="mailto:garvitasapra99@gmail.com" >  garvitasapra99@gmail.com</a>
-  <br><!---🎲 Fun fact: M gonna start a challenge called 30 days of mini projects soon</p>-->
-
+<!---img align="right" src=" alt="coding" width="300">-->
+<p align="left">
+ ✨ Passionate about Programming since 2018<br><br>
+ 📚 I'm currently learning Cyber Security and Data science<br><br>
+ 🙋‍♀️ Reach out anytime : <a  href="mailto:garvitasapra99@gmail.com" >garvitasapra99@gmail.com</a><br>
+ <!---🎲 Fun fact: M gonna start a challenge called 30 days of mini projects soon</p>-->
+<br>
 <h2 align="left">I code with</h2>
 
 <div align="left">
