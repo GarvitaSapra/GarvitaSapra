@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacman Game</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        #game-container {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            margin: 50px auto;
+            border: 2px solid #333;
+            background-color: #222;
+        }
+
+        #pacman {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-color: yellow;
+            border-radius: 50%;
+            left: 180px;
+            top: 180px;
+        }
+
+        .ghost {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-color: red;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Hey 👋</h1>
+
+    <p align="center">
+        <a href="https://git.io/typing-svg">
+            <img src="https://readme-typing-svg.demolab.com?font=Georgia&weight=900&pause=900&size=40&color=042D5E&width=500&height=60&lines=++My+name+is+Garvita+Sapra" alt="Typing SVG" />
+        </a>
+    </p>
+    
+    <h2 align="center"> and I'm a Developer / Designer .</h2>
+
+    <h2 align="left">About me</h2>
+
+    <p align="left">
+        ✨ Passionate about Programming since 2018<br><br>
+        📚 I'm currently learning Cyber Security and Data science<br><br>
+        🙋‍♀️ Reach out anytime : <a href="mailto:garvitasapra99@gmail.com">garvitasapra99@gmail.com</a><br>
+    </p>
+
+    <br>
+
+    <h2 align="left">I code with</h2>
+
+    <div align="left">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="cplusplus logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo"  />
+        <img width="12" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" height="40" alt="dot-net logo"  />
+    </div>
+
+    <h2 align="left">My social handles 👾</h2>
+
+    <div align="center">
+        <a href="https://www.linkedin.com/in/garvita-sapra-6904981a9/" target="_blank">
+            <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+        </a>
+        <a href="https://garvita-portfolio.my.canva.site/portfolio" target="_blank">
+            <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linktree/default.svg" width="52" height="40" alt="portfolio logo"  />
+        </a>
+    </div>
+
+    <div id="game-container">
+        <div id="pacman"></div>
+        <div class="ghost" id="ghost1"></div>
+        <!-- Add more ghost divs here if needed -->
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const pacman = document.getElementById('pacman');
+            const ghost = document.getElementById('ghost1');
+            let direction = 'right';
+
+            function movePacman() {
+                switch (direction) {
+                    case 'up':
+                        pacman.style.top = parseInt(pacman.style.top) - 5 + 'px';
+                        break;
+                    case 'down':
+                        pacman.style.top = parseInt(pacman.style.top) + 5 + 'px';
+                        break;
+                    case 'left':
+                        pacman.style.left = parseInt(pacman.style.left) - 5 + 'px';
+                        break;
+                    case 'right':
+                        pacman.style.left = parseInt(pacman.style.left) + 5 + 'px';
+                        break;
+                }
+            }
+
+            function moveGhost() {
+                const randomDirection = Math.floor(Math.random() * 4); // 0: up, 1: down, 2: left, 3: right
+                switch (randomDirection) {
+                    case 0:
+                        ghost.style.top = parseInt(ghost.style.top) - 5 + 'px';
+                        break;
+                    case 1:
+                        ghost.style.top = parseInt(ghost.style.top) + 5 + 'px';
+                        break;
+                    case 2:
+                        ghost.style.left = parseInt(ghost.style.left) - 5 + 'px';
+                        break;
+                    case 3:
+                        ghost.style.left = parseInt(ghost.style.left) + 5 + 'px';
+                        break;
+                }
+            }
+
+            setInterval(movePacman, 50);
+            setInterval(moveGhost, 100);
+        });
+    </script>
+</body>
+</html>
