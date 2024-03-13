@@ -8,7 +8,7 @@
 <p align="left">
  ✨ Passionate about Programming since 2018<br><br>
  📚 I'm currently learning Java and upskilling cpp<br><br>
- 🙋‍♀️ Reach out anytime : <a  href="mailto:garvitasapra99@gmail.com" >garvitasapra99@gmail.com</a><br>
+ 🙋‍♀️ Reach out anytime : <a  href="mailto:garvitasapra99@gmail.com" >garvitasapra99@gmail.com</a><br><br>
  🎲 Fun fact: I have started a challenge called 30 days of mini projects</p>
 <br>
  
